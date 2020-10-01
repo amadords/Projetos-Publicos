@@ -8,6 +8,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-danielamador12-darkblue.svg)](https://github.com/danielamador12)
 [![Medium](https://img.shields.io/badge/Medium-DanielSousaAmador-darkorange.svg)](https://medium.com/@daniel.s.amador)
 
-## Este repositório contém
+## Este repositório contém:
 **Notebooks com códigos Python que possam interessar a estudantes, entusiastas e recrutadores.**
 **Para ver de uma forma mais amigável, clique [aqui](https://github.com/danielamador12/Portfolio/blob/master/README.md).**
