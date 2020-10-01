@@ -1,0 +1,13 @@
+[![author](https://img.shields.io/badge/author-daniel-red.svg)](https://www.linkedin.com/in/daniel-sousa-amador) [![](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/danielamador12)
+
+<p align="center">
+  <img src="https://github.com/danielamador12/Portfolio/blob/master/github.png" >
+</p>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-DanielSousaAmador-purple.svg)](https://www.linkedin.com/in/daniel-sousa-amador)
+[![GitHub](https://img.shields.io/badge/GitHub-danielamador12-darkblue.svg)](https://github.com/danielamador12)
+[![Medium](https://img.shields.io/badge/Medium-DanielSousaAmador-darkorange.svg)](https://medium.com/@daniel.s.amador)
+
+## Este repositório contém
+**Notebooks com códigos Python que possam interessar a estudantes, entusiastas e recrutadores.**
+**Para ver de uma forma mais amigável, clique [aqui](https://github.com/danielamador12/Portfolio/blob/master/README.md)**
