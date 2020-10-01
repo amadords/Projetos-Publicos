@@ -1,4 +1,4 @@
-[![author](https://img.shields.io/badge/author-daniel-purple.svg)](https://www.linkedin.com/in/daniel-sousa-amador) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-darkblue.svg?style=flat)](https://github.com/danielamador12) [![](https://img.shields.io/badge/python-3.6+-yellow.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-darkblue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![author](https://img.shields.io/badge/author-daniel-purple.svg)](https://www.linkedin.com/in/daniel-sousa-amador) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-darkblue.svg?style=flat)](https://github.com/danielamador12) [![](https://img.shields.io/badge/python-3.6+-yellow.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-navyblue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 <p align="center">
   <img src="https://github.com/danielamador12/Portfolio/blob/master/github.png" >
