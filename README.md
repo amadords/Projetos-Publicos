@@ -12,4 +12,4 @@
 
 ## Este repositório contém:
 **Notebooks com códigos Python que possam interessar a estudantes, entusiastas e recrutadores.**
-**Para ver de uma forma mais amigável, clique [aqui]((https://github.com/amadords).**
+**Para ver de uma forma mais amigável, clique [aqui](https://github.com/amadords).**
