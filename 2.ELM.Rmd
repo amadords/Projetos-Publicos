@@ -1,0 +1,95 @@
+---
+Formação Cientista de Dados II 
+Extreme Learning Machine
+---
+
+```{r}
+#install.packages("elmNNRcpp")
+#install.packages("mltools")
+#install.packages("data.table")
+#install.packages("caret")
+library(elmNNRcpp)
+library(mltools)
+library(data.table)
+library(caret)
+```
+
+```{r}
+#particionamos em trenio e teste
+set.seed(1234)
+particao = createDataPartition(1:dim(iris)[1],p=.7)
+iristreino = iris[particao$Resample1,]
+iristeste = iris[- particao$Resample1,]
+```
+
+```{r}
+#tratando dados de treino, separamos X e Y
+x = iristreino[,-5]
+y = iristreino[,5]
+```
+
+```{r}
+#dimensionamento de caracacterisitcas
+x = scale(x)
+#codificação de categoria para a classe
+y = one_hot(one_hot(as.data.table(y)))
+```
+
+```{r}
+#pacote exige dados no formato matriz
+x = as.matrix(x)
+y = as.matrix(y)
+```
+
+```{r}
+#criamos o modelo
+# nhid neuronios ocultos
+#modelo = elm_train(x, y, nhid = 1000, actfun = 'relu', init_weights = "uniform_negative", 
+#                   bias = TRUE, verbose = TRUE)
+
+modelo = elm_train(x, y, nhid = 100, actfun = 'sig', init_weights = "normal_gaussian", 
+                   bias = TRUE, verbose = TRUE)
+```
+
+```{r}
+#preparamos dados de teste
+#Salvamos a classe para no final comparar com a previsão
+iristesteSpecies = iristeste$Species
+#dimensionamento de caracteristicas
+iristeste = scale(iristeste[,-5])
+#transformamos em matrix
+iristeste = as.matrix(iristeste)
+```
+
+```{r}
+#previsão, normalize TRUE em caso de Classificação
+resultado = elm_predict(modelo,iristeste, normalize = TRUE)
+```
+
+```{r}
+#transformamos em data frame
+resultado = as.data.frame(resultado)
+resultado
+```
+
+```{r}
+#nomes nas colunas
+names(resultado)[1] = 'setosa'
+names(resultado)[2] = 'versicolor'
+names(resultado)[3] = 'virginica'
+resultado
+```
+
+```{r}
+#criamos uma coluna que recebe a coluna "vencedora"
+resultado$class = colnames(resultado[,1:3])[max.col(resultado[,1:3], ties.method = 'first')]
+resultado
+```
+
+```{r}
+#calumas o resultado
+confusao = table(resultado$class,iristesteSpecies)
+confusao
+sum(diag(confusao) * 100 / sum(confusao))
+```
+
