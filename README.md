@@ -11,5 +11,5 @@
 [![Medium](https://img.shields.io/badge/Medium-DanielSousaAmador-white.svg)](https://medium.com/@daniel.s.amador)
 
 ## Este repositório contém:
-**Notebooks com códigos Python que possam interessar a estudantes, entusiastas e recrutadores.**
-**Para ver de uma forma mais amigável, clique [aqui](https://github.com/amadords).**
+Notebooks com **códigos Python** que possam interessar a estudantes, entusiastas e recrutadores.
+Para ver de uma forma mais amigável, clique [aqui](https://github.com/amadords).
