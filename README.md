@@ -8,7 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-DanielSousaAmador-cyan.svg)](https://www.linkedin.com/in/daniel-sousa-amador)
 [![GitHub](https://img.shields.io/badge/GitHub-amadords-darkblue.svg)](https://github.com/amadords)
-[![Medium](https://img.shields.io/badge/Medium-DanielSousaAmador-white.svg)](https://medium.com/@daniel.s.amador)
+[![Medium](https://img.shields.io/badge/Medium-DanielSousaAmador-white.svg)](https://daniel-s-amador.medium.com/)
 
 ## Este repositório contém:
 Notebooks com **códigos Python** que possam interessar a estudantes, entusiastas e recrutadores.
