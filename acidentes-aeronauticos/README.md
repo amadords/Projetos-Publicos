@@ -13,7 +13,7 @@ O script [Acidentes Aeronáuticos](https://github.com/amadords/Projetos-Publicos
 
 ## **Observações**
 
-Por haver uma quebra em algumas funcionalidades ainda não resolvidas no **Streamlit**, é recomendado que se faça o downgrade para a *versão 0.69* com o código
+Por haver uma quebra em algumas funcionalidades ainda não resolvidas no [Streamlit](https://docs.streamlit.io/en/stable/api.html), é recomendado que se faça o downgrade para a *versão 0.69* com o código
 
 `pip install --force-reinstall streamlit==0.69` caso já tenha alguma versão instalada
 
