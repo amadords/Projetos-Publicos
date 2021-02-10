@@ -120,7 +120,7 @@ st.pydeck_chart(pdk.Deck(
     ],
 ))
 
-#grafico de barras
+# grafico de barras
 
 st.subheader("Gráfico de Barras")
 
