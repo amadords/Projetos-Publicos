@@ -27,7 +27,9 @@ Há também a necessidade de instalar as bibliotecas a seguir:
 
 `pip install pydeck` para a biblioteca [Pydeck](https://pypi.org/project/pydeck/).
 
-O arquivo `requirements.txt` mostra todas as bibliotecas disponíveis e pode ser obtido com o comando: `pip freeze > requirements.txt`.
+O arquivo [requirements.txt](https://github.com/amadords/Projetos-Publicos/blob/master/acidentes-aeronauticos/requirements.txt) mostra todas as bibliotecas disponíveis e pode ser obtido com o comando: 
+
+`pip freeze > requirements.txt`
 
 
 
