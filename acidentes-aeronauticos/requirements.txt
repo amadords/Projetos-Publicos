@@ -178,7 +178,7 @@ python-language-server @ file:///tmp/build/80754af9/python-language-server_16004
 pytz==2020.1
 PyWavelets @ file:///tmp/build/80754af9/pywavelets_1601658317819/work
 pyxdg @ file:///tmp/build/80754af9/pyxdg_1603822279816/work
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==19.0.2
 QDarkStyle==2.8.1
 QtAwesome @ file:///tmp/build/80754af9/qtawesome_1602272867890/work
