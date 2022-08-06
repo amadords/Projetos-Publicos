@@ -218,7 +218,7 @@ spyder @ file:///tmp/build/80754af9/spyder_1599056981321/work
 spyder-kernels @ file:///tmp/build/80754af9/spyder-kernels_1599056754858/work
 SQLAlchemy @ file:///tmp/build/80754af9/sqlalchemy_1603397987316/work
 statsmodels @ file:///tmp/build/80754af9/statsmodels_1602280205159/work
-streamlit==0.69.0
+streamlit==1.11.1
 sympy @ file:///tmp/build/80754af9/sympy_1605119542615/work
 tables==3.6.1
 tblib @ file:///tmp/build/80754af9/tblib_1597928476713/work
