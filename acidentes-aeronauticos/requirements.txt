@@ -152,7 +152,7 @@ pluggy==0.13.1
 ply==3.11
 prometheus-client==0.8.0
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
-protobuf==3.14.0
+protobuf==3.18.3
 psutil @ file:///tmp/build/80754af9/psutil_1598370257551/work
 ptyprocess==0.6.0
 py @ file:///tmp/build/80754af9/py_1593446248552/work
